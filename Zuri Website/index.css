@@ -1,0 +1,77 @@
+/* CSS RESET */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+:root {
+  --link-color: #e7332b;
+}
+body {
+  font-family: Averta, sans-serif;
+}
+header,
+.imgTop {
+  padding: 30px;
+  margin: 15px;
+}
+#fstbackground {
+  background-image: url(hero-bg.svg);
+}
+.top {
+  padding: 25px;
+  margin: 25px;
+}
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.btn1 {
+  padding: 15px;
+  margin: 45px 15px;
+  background-color: var(--link-color);
+  border: solid var(--link-color) 1px;
+}
+.btn1 a {
+  color: #fff;
+}
+.btn1:hover {
+  background-color: #fff;
+}
+.btn1:hover a {
+  color: var(--link-color);
+}
+.btn2 {
+  padding: 15px;
+  margin: 45px 15px;
+  background-color: #fff;
+  border: solid var(--link-color) 1px;
+}
+.btn2:hover {
+  background-color: var(--link-color);
+}
+.btn2:hover a {
+  color: #fff;
+}
+.red {
+  color: var(--link-color);
+}
+#BZT {
+  font-size: 14px;
+  line-height: 24px;
+  color: #e7332b;
+  margin-top: 141px;
+}
+#flex3 {
+  display: flex;
+  padding: 10px;
+}
+#flex3 div {
+  padding: 15px;
+}
+.triplets {
+  background-color: #fffafa;
+  margin: 10px;
+  display: block;
+}
